@@ -18,13 +18,16 @@ for (var pie in pieArray) {
 //     console.log(name.charAt.toUpperCase[0]);
 // }
 
+//Challenge capitalize first letter of name
+
 var studentName = 'hArRy';
 var capName;
 for (let n in studentName) {
-    if (n == 0) {
-        capName = studentName[n].toUpperCase();
-    } else {
-        capName += studentName[n].toLowerCase();
-    }
-}
+  // console.log(studentName[n])
+  if (n == 0) {
+    capName = studentName[n].toUpperCase();
+  } else {
+    capName += studentName[n].toLowerCase();
+  }
+} 
 console.log(capName);

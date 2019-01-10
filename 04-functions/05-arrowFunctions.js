@@ -26,3 +26,29 @@ let namingMachine = (fname, lname) => (fname, lname);
 console.log(namingMachine("Tom", "Hiddleston"));
 
 
+// var cap1 = 
+// var ception = ('Milk') => {
+//     console.log(` `)
+// }
+
+// FUNCTIONCEPTION
+// create two functions
+// first - take a string parameter, and captitalize it;
+// first - return that string;
+
+// second - string as a parameter, and then lowercase;
+// console.log result
+
+// Take the return from the first, and then pass it into the second function.
+
+let score = "Winner";
+
+function upperCase(big) {
+  return big.toUpperCase();
+}
+
+function lowerCase(small) {
+  return small.toLowerCase();
+}
+
+console.log( lowerCase( upperCase(score) ) )
